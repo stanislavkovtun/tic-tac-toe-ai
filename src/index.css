@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --winning-color: #4CAF50;
+  --winning-color: #66bb6a;
 }
 
 a {
@@ -85,4 +85,10 @@ button:focus-visible {
 
 .dark-mode button {
   background-color: #1a1a1a;
+}
+
+.winning-square {
+  background-color: var(--winning-color) !important;
+  color: white;
+  transition: background-color 0.3s ease;
 }
